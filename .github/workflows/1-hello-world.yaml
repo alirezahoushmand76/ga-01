@@ -15,7 +15,7 @@ jobs:
             - name: Print Hi to you
               run: echo "Hi to you"
 
-            - name: I will fail
+            - name: I will succeed
               run : exit 1
 
             - name: Say Goodbye
