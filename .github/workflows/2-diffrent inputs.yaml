@@ -1,5 +1,4 @@
-name: 2- different inputs
-
+name: 2-different inputs
 on: 
     push:
     schedule:
@@ -33,3 +32,4 @@ jobs:
              echo "Commit SHA is = ${{ github.sha }}"
              echo "Runners is = ${{ runner.os }}"
 
+             
